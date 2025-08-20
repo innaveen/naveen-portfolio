@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -8,29 +6,35 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 
+export const metadata = {
+  title: "Naveen Gupta | Portfolio",
+};
+
 export default function HomePage() {
   return (
-    <main className="bg-gray-900 text-white">
-      {/* Navbar */}
-      <Navbar />
 
-      {/* Hero Section */}
-      <Hero />
+      <main className="bg-gray-900 text-white">
+        {/* Navbar */}
+        <Navbar />
 
-      {/* About Section */}
-      <About />
+        {/* Hero Section */}
+        <Hero />
 
-      {/* Skills Section */}
-      <Skills />
+        {/* About Section */}
+        <About />
 
-      {/* Projects Section */}
-      <Projects />
+        {/* Skills Section */}
+        <Skills />
 
-      {/* Experience & Certifications Section */}
-      <Experience />
+        {/* Projects Section */}
+        <Projects />
 
-      {/* Contact Section */}
-      <Contact />
-    </main>
+        {/* Experience & Certifications Section */}
+        <Experience />
+
+        {/* Contact Section */}
+        <Contact />
+      </main>
   );
 }
+    
