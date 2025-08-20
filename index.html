@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen Gupta | Portfolio</title>
+  <link href="./dist/output.css" rel="stylesheet" />
+  <!-- AOS for scroll animations -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    rel="stylesheet"
+  />
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav
+    class="fixed w-full bg-white shadow-md px-6 py-4 flex justify-between items-center z-50"
+  >
+    <h1 class="text-2xl font-bold text-blue-600">Naveen Gupta</h1>
+    <ul class="flex space-x-6 font-medium">
+      <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-600">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section
+    id="home"
+    class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-100 to-blue-50 px-4"
+    data-aos="fade-up"
+  >
+    <h2 class="text-5xl font-extrabold text-blue-600">Hi, I'm Naveen 👋</h2>
+    <p class="mt-4 text-lg text-gray-700 max-w-xl">
+      Aspiring Software Developer | Problem Solver | Tech Enthusiast |
+      Passionate about creating scalable solutions
+    </p>
+    <a
+      href="#projects"
+      class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700"
+      >View My Work</a
+    >
+  </section>
+
+  <!-- About -->
+  <section
+    id="about"
+    class="py-20 px-8 max-w-4xl mx-auto text-center"
+    data-aos="fade-right"
+  >
+    <h3 class="text-3xl font-bold mb-6">About Me</h3>
+    <p class="text-lg text-gray-700">
+      I am Naveen Gupta, a passionate developer from India, currently
+      pursuing my B.Tech. With strong problem-solving skills and hands-on
+      experience in modern technologies, I strive to create impactful
+      applications and contribute to product-based companies.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section
+    id="skills"
+    class="py-20 bg-gray-100"
+    data-aos="fade-left"
+  >
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Skills</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div class="p-6 bg-white shadow rounded-lg">HTML</div>
+        <div class="p-6 bg-white shadow rounded-lg">CSS</div>
+        <div class="p-6 bg-white shadow rounded-lg">JavaScript</div>
+        <div class="p-6 bg-white shadow rounded-lg">React</div>
+        <div class="p-6 bg-white shadow rounded-lg">Node.js</div>
+        <div class="p-6 bg-white shadow rounded-lg">TailwindCSS</div>
+        <div class="p-6 bg-white shadow rounded-lg">Git & GitHub</div>
+        <div class="p-6 bg-white shadow rounded-lg">DSA</div>
+        <div class="p-6 bg-white shadow rounded-lg">Java</div>
+        <div class="p-6 bg-white shadow rounded-lg">C</div>
+        <div class="p-6 bg-white shadow rounded-lg">Python</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section
+    id="projects"
+    class="py-20 px-8 max-w-6xl mx-auto"
+    data-aos="zoom-in"
+  >
+    <h3 class="text-3xl font-bold text-center mb-10">Projects</h3>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div
+        class="p-6 bg-white shadow rounded-lg hover:shadow-lg transition"
+      >
+        <h4 class="font-bold text-xl mb-2">CryptoPulse</h4>
+        <p class="text-gray-600">A web app built with plain HTML.</p>
+        <a
+          href="https://github.com/innaveen/CryptoPulse"
+          target="_blank"
+          class="mt-3 inline-block text-blue-600 underline"
+          >View Repository</a
+        >
+      </div>
+      <div
+        class="p-6 bg-white shadow rounded-lg hover:shadow-lg transition"
+      >
+        <h4 class="font-bold text-xl mb-2">Campus-connect</h4>
+        <p class="text-gray-600">A JavaScript-based campus app.</p>
+        <a
+          href="https://github.com/innaveen/Campus-connect"
+          target="_blank"
+          class="mt-3 inline-block text-blue-600 underline"
+          >View Repository</a
+        >
+      </div>
+      <!-- Placeholder for future projects -->
+      <div
+        class="p-6 bg-white shadow rounded-lg flex items-center justify-center text-gray-400"
+      >
+        Coming Soon...
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section
+    id="contact"
+    class="py-20 text-center bg-blue-600 text-white"
+    data-aos="fade-up"
+  >
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p class="mb-4">📧 naveen.gupta@example.com</p>
+    <p>
+      🔗
+      <a
+        href="https://www.linkedin.com/in/naveen-gupta-999688259"
+        target="_blank"
+        class="underline"
+        >LinkedIn</a
+      >
+      |
+      <a
+        href="https://github.com/innaveen"
+        target="_blank"
+        class="underline"
+        >GitHub</a
+      >
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-800 text-white">
+    <p>© 2025 Naveen Gupta. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
